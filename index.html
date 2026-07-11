@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Personal portfolio website.">
+  <meta name="keywords" content="Portfolio, CV, Resume, Personal Website">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark-mode"> <!-- Default to premium dark mode -->
+
+  <!-- Gradient Background Decoration -->
+  <div class="bg-gradient-glow blob-1"></div>
+  <div class="bg-gradient-glow blob-2"></div>
+
+  <!-- Header Navigation -->
+  <header id="header" class="header">
+    <div class="header-container">
+      <a href="#hero" class="logo">
+        <span class="logo-dot"></span>
+        <span class="logo-text" id="logo-text">Portfolio</span>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="#hero" class="nav-link active" id="nav-hero-link"><i data-lucide="home"></i><span>Home</span></a></li>
+          <li><a href="#about" class="nav-link" id="nav-about-link"><i data-lucide="user"></i><span>About & Skills</span></a></li>
+          <li><a href="#experience" class="nav-link" id="nav-experience-link"><i data-lucide="briefcase"></i><span>Experience</span></a></li>
+          <li><a href="#projects" class="nav-link" id="nav-projects-link"><i data-lucide="folder-git-2"></i><span>Projects</span></a></li>
+          <li><a href="#publications" class="nav-link" id="nav-publications-link"><i data-lucide="book-open"></i><span>Publications</span></a></li>
+          <li><a href="#awards-certs" class="nav-link" id="nav-awards-certs-link"><i data-lucide="award"></i><span>Awards & Certs</span></a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Right Utilities -->
+      <div class="header-utils">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <i data-lucide="sun" class="sun-icon"></i>
+          <i data-lucide="moon" class="moon-icon"></i>
+        </button>
+        <button class="mobile-nav-toggle-btn" id="mobile-nav-toggle" aria-label="Toggle Navigation">
+          <i data-lucide="menu" class="menu-icon"></i>
+          <i data-lucide="x" class="close-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="badge-container">
+          <span class="hero-badge">
+            <span class="pulse-dot"></span> Available for Research Collaborations
+          </span>
+        </div>
+        <h1 class="hero-title" id="hero-name">Loading Name...</h1>
+        <h2 class="hero-subtitle" id="hero-subtitle">Loading Subtitle...</h2>
+        <p class="hero-tagline-wrap">
+          I'm <span id="typewriter-text" class="typewriter-text"></span><span class="typewriter-cursor">|</span>
+        </p>
+        
+        <div class="hero-social-links" id="hero-socials">
+          <!-- Populated by JS -->
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#publications" class="btn btn-primary" id="cta-pubs"><i data-lucide="file-text"></i> View Publications</a>
+          <a href="" id="cv-download-btn" target="_blank" class="btn btn-secondary"><i data-lucide="download"></i> Download CV</a>
+        </div>
+      </div>
+      
+      <div class="hero-illustration">
+        <div class="avatar-frame">
+          <div class="avatar-ring ring-1"></div>
+          <div class="avatar-ring ring-2"></div>
+          <div class="avatar-ring ring-3"></div>
+          <img src="" id="profile-avatar" alt="Manjot Singh Sran Portrait" class="avatar-image">
+        </div>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator">
+      <a href="#about" aria-label="Scroll Down">
+        <span class="mouse">
+          <span class="wheel"></span>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Main Content Wrapper -->
+  <main id="main">
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Biography</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card-left">
+            <div class="profile-card">
+              <div class="profile-card-header">
+                <h3>Quick Info</h3>
+              </div>
+              <ul class="profile-info-list">
+                <li>
+                  <i data-lucide="building-2"></i>
+                  <div>
+                    <strong>Affiliation</strong>
+                    <span id="info-affiliation">Loading...</span>
+                  </div>
+                </li>
+                <li>
+                  <i data-lucide="mail"></i>
+                  <div>
+                    <strong>Email</strong>
+                    <span id="info-email">Loading...</span>
+                  </div>
+                </li>
+                <li>
+                  <i data-lucide="map-pin"></i>
+                  <div>
+                    <strong>Location</strong>
+                    <span id="info-location">Loading...</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="about-content-right">
+            <h3 class="about-greeting">Research Focus</h3>
+            <p class="about-bio" id="about-bio">Loading biography...</p>
+            <p class="about-bio-detailed" id="about-bio-detailed"></p>
+            
+            <div class="research-interests">
+              <h4>Research Interests & Areas</h4>
+              <div class="interests-grid" id="interests-container">
+                <!-- Populated by JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic Extra Info Grid (Education & Skills) -->
+        <div class="about-extra-grid">
+          <!-- Education Timelines -->
+          <div class="education-panel">
+            <h3 class="subsection-title"><i data-lucide="graduation-cap"></i> Education</h3>
+            <div class="education-timeline" id="education-timeline">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- Technical Skills Badge Cloud -->
+          <div class="skills-panel">
+            <h3 class="subsection-title"><i data-lucide="cpu"></i> Technical Skills</h3>
+            <div class="skills-box" id="skills-container">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section news-section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Latest Updates</span>
+          <h2 class="section-title">News & Timeline</h2>
+          <div class="section-divider"></div>
+        </div>
+        
+        <div class="timeline-container" id="news-timeline">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Training Section -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Professional Background</span>
+          <h2 class="section-title">Experience & Training</h2>
+          <div class="section-divider"></div>
+        </div>
+        
+        <div class="experience-grid">
+          <!-- Work Experience Timeline -->
+          <div class="work-exp-wrapper">
+            <h3 class="subsection-title-icon"><i data-lucide="briefcase"></i> Work Experience</h3>
+            <div class="experience-timeline-vertical" id="work-experience-timeline">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- Industrial Training Timeline -->
+          <div class="training-wrapper">
+            <h3 class="subsection-title-icon"><i data-lucide="award"></i> Technical & Industrial Training</h3>
+            <div class="training-list" id="training-timeline">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Portfolio</span>
+          <h2 class="section-title">Projects Showcase</h2>
+          <div class="section-divider"></div>
+        </div>
+        
+        <div class="projects-grid" id="projects-container">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section publications-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Scholarly Works</span>
+          <h2 class="section-title">Publications</h2>
+          <div class="section-divider"></div>
+        </div>
+        
+        <!-- Publications Search & Filters -->
+        <div class="pubs-filter-bar">
+          <div class="search-input-wrapper">
+            <i data-lucide="search" class="search-icon"></i>
+            <input type="text" id="pub-search" placeholder="Search by paper title, venue, or publisher..." aria-label="Search Publications">
+            <button id="search-clear-btn" class="search-clear-btn" aria-label="Clear Search"><i data-lucide="x"></i></button>
+          </div>
+          
+          <div class="filter-tabs-wrapper">
+            <button class="filter-tab active" data-category="all">All</button>
+            <button class="filter-tab" data-category="journal">Journals</button>
+            <button class="filter-tab" data-category="conference">Conferences</button>
+            <button class="filter-tab" data-category="under-review">Under Review</button>
+          </div>
+        </div>
+
+        <!-- Publications Count -->
+        <div class="pubs-meta-info">
+          <span id="pubs-count-text">Showing all publications</span>
+        </div>
+
+        <!-- Publications List Container -->
+        <div class="publications-list" id="publications-container">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards & Certifications Section -->
+    <section id="awards-certs" class="section awards-certs-section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Achievements & Credentials</span>
+          <h2 class="section-title">Awards & Certifications</h2>
+          <div class="section-divider"></div>
+        </div>
+        
+        <div class="awards-certs-grid">
+          <!-- Awards Column -->
+          <div class="awards-panel">
+            <h3 class="subsection-title-icon"><i data-lucide="trophy"></i> Awards & Scholarships</h3>
+            <div class="awards-list" id="awards-container">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="certs-panel">
+            <h3 class="subsection-title-icon"><i data-lucide="shield-check"></i> Professional Certifications</h3>
+            <div class="certs-grid" id="certs-container">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="footer" class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <span class="logo-dot"></span>
+          <span id="footer-logo-name">Name</span>
+        </div>
+        <p class="footer-tagline" id="footer-tagline">Driving the future of trustworthy and robust AI systems.</p>
+      </div>
+      
+      <div class="footer-right">
+        <p class="footer-copy">&copy; <span id="footer-year"></span> <span id="footer-name">Name</span>. All rights reserved.</p>
+        <p class="footer-attribution">Built with premium design principles & dynamic configs.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back-to-Top Button -->
+  <button id="back-to-top-btn" class="back-to-top-btn" aria-label="Scroll to top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <!-- BibTeX Modal (for publications citation copy) -->
+  <div id="bibtex-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>BibTeX Citation</h3>
+        <button class="modal-close" id="modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <pre><code id="bibtex-code">Loading citation...</code></pre>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="modal-copy-btn"><i data-lucide="copy"></i> Copy to Clipboard</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Scripts -->
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
