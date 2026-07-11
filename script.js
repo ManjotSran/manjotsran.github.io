@@ -70,7 +70,7 @@ function loadProfileData() {
   const profile = CONFIG.profile;
 
   // Set Document Title
-  document.title = profile.name + " | Personal Portfolio";
+  document.title = "Homepage for " + profile.name;
 
   // Set Header Logo Text
   const nameParts = profile.name.split(" ");
