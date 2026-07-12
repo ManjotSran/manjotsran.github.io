@@ -70,7 +70,7 @@ function loadProfileData() {
   const profile = CONFIG.profile;
 
   // Set Document Title
-  document.title = "Homepage for " + profile.name;
+  document.title = profile.name + " | Multimodal AI Researcher";
 
   // Set Header Logo Text
   const nameParts = profile.name.split(" ");
