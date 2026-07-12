@@ -839,7 +839,7 @@ body.light-mode .theme-toggle-btn .moon-icon {
   background-color: var(--bg-glass-hover);
 }
 
-.interest-card h5 {
+.interest-card h3 {
   font-size: 1.05rem;
   color: var(--text-primary);
   margin-bottom: 0.5rem;
@@ -848,7 +848,7 @@ body.light-mode .theme-toggle-btn .moon-icon {
   gap: 0.5rem;
 }
 
-.interest-card h5::before {
+.interest-card h3::before {
   content: '';
   display: block;
   width: 6px;

@@ -201,7 +201,7 @@ function renderInterests() {
     const card = document.createElement("div");
     card.className = "interest-card glass-panel";
     card.innerHTML = `
-      <h5>${interest.title}</h5>
+      <h3>${interest.title}</h3>
       <p>${interest.description}</p>
     `;
     container.appendChild(card);
