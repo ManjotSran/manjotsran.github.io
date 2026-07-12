@@ -19,16 +19,16 @@ const CONFIG = {
   },
   interests: [
     {
-      title: "Multimodal Fusion & Architectures",
-      description: "Designing early, mid, late fusion networks with attention, gating, and Mixture-of-Experts (MoE) routing."
+      title: "Multimodal Learning and Fusion",
+      description: "Research on the principled integration of heterogeneous modalities, with emphasis on adaptive fusion, cross-modal interaction modeling, gated architectures, and Mixture-of-Experts routing."
     },
     {
-      title: "Representation Learning",
-      description: "Developing shared-private feature disentanglement frameworks to capture cross-modal interactions."
+      title: "Shared–Private Representation Learning",
+      description: "Investigation of shared, complementary, and modality-specific representations through feature disentanglement, cross-modal alignment, and controlled integration of private information."
     },
     {
-      title: "Uncertainty Management",
-      description: "Leveraging tolerance near sets and ambiguity-aware clustering to quantify and manage prediction uncertainty."
+      title: "Uncertainty-Aware Learning and Approximate Reasoning",
+      description: "Development of uncertainty-aware and interpretable learning methods using rough sets, tolerance near sets, ambiguity-aware clustering, and selective decision mechanisms."
     }
   ],
   education: [
@@ -173,7 +173,7 @@ const CONFIG = {
     },
     {
       date: "09/2025",
-      text: "Served as a Teaching Assistant for Applications of Database Systems at the University of Winnipeg (Fall Term).",
+      text: "Worked as a Teaching Assistant for Applications of Database Systems at the University of Winnipeg (Fall Term).",
       link: null
     },
     {
