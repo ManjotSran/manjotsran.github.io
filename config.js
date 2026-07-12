@@ -96,6 +96,7 @@ const CONFIG = {
       role: "Participant (Pathfinder Cohort)",
       company: "North Forge Founders Program",
       period: "June 2025 – Sept. 2025",
+      link: "https://www.uwinnipeg.ca/graduate-studies/news/2025/09/msc-acs-students-forge-a-new-path-for-caregivers.html",
       details: [
         "Participated in a regional startup incubator to accelerate an early-stage digital health venture.",
         "Conducted user research with dementia caregivers to identify unmet needs and support system workflow gaps.",
@@ -179,7 +180,7 @@ const CONFIG = {
     {
       date: "06/2025",
       text: "Participated in North Forge's Founders Program (Pathfinder Cohort) to accelerate an early-stage digital health startup.",
-      link: null
+      link: "https://www.uwinnipeg.ca/graduate-studies/news/2025/09/msc-acs-students-forge-a-new-path-for-caregivers.html"
     },
     {
       date: "03/2025",

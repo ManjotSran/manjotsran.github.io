@@ -317,6 +317,11 @@ function renderExperience() {
       detailsHtml += `<li>${bullet}</li>`;
     });
 
+    let linkHtml = "";
+    if (exp.link) {
+      linkHtml = `<a href="${exp.link}" target="_blank" rel="noopener noreferrer" class="exp-link" style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; color: var(--primary); font-weight: 600; margin-top: 0.75rem; text-decoration: none;"><i data-lucide="external-link" style="width: 14px; height: 14px; display: inline-block;"></i> Read News Article</a>`;
+    }
+
     item.innerHTML = `
       <div class="exp-header">
         <h4 class="exp-role">${exp.role}</h4>
@@ -326,6 +331,7 @@ function renderExperience() {
       <ul class="exp-details">
         ${detailsHtml}
       </ul>
+      ${linkHtml}
     `;
     container.appendChild(item);
   });
