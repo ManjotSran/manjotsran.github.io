@@ -170,7 +170,7 @@ const CONFIG = {
     {
       date: "09/2025",
       text: "Presented a research talk on <b>Robust Alzheimer's Disease Detection via Multimodal Fusion</b> at the University of Winnipeg Physics Colloquium.",
-      link: null
+      link: "https://www.uwinnipeg.ca/physics/events/2025/09/acs-research-group-colloquium.html"
     },
     {
       date: "09/2025",
@@ -185,7 +185,7 @@ const CONFIG = {
     {
       date: "03/2025",
       text: "Presented 'Advancing Emotion Recognition with Artificial Intelligence' at UWinnipeg's 3MT (Three-Minute Thesis) competition.",
-      link: null
+      link: "https://news.uwinnipeg.ca/three-minutes-in-the-limelight/"
     },
     {
       date: "08/2024",
