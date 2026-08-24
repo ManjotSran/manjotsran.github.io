@@ -153,6 +153,11 @@ const CONFIG = {
   ],
   news: [
     {
+      date: "08/2026",
+      text: "Our paper <b>DiMoE: Disentangled Representation Learning with Mixture-of-Experts Fusion for Sentiment Intensity Prediction and Emotion Classification</b> has been accepted for publication in <i>Algorithms (MDPI)</i> [Impact Factor: 2.6]!",
+      link: null
+    },
+    {
       date: "07/2026",
       text: "Our paper <b>SPriG: Shared-Only Fusion with Improvement-Guided Private Gating for Multimodal Affective Computing</b> has been published online in <i>Information Fusion (Elsevier)</i> [Impact Factor: 17.4]!",
       link: "https://doi.org/10.1016/j.inffus.2026.104606"
@@ -211,8 +216,10 @@ const CONFIG = {
       authors: "<b>Manjot S. Sran</b>, Sheela Ramanna, Ketan Kotecha",
       venue: "Algorithms (MDPI)",
       year: 2026,
-      category: "under-review",
+      category: "journal",
       publisher: "MDPI",
+      impactFactor: "2.6",
+      note: "[Accepted for publication]",
       links: {}
     },
     {
