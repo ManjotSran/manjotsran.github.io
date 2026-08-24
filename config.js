@@ -225,10 +225,12 @@ const CONFIG = {
     {
       title: "TLC-STRIDE: An Ambiguity-Aware Framework for Multimodal Sentiment Prediction",
       authors: "<b>Manjot S. Sran</b>, Sheela Ramanna",
-      venue: "Elsevier Journal",
+      venue: "Machine Learning with Applications (Elsevier)",
       year: 2026,
       category: "under-review",
       publisher: "Elsevier",
+      impactFactor: "6.1",
+      note: "[Minor revision under review]",
       links: {}
     }
   ],
