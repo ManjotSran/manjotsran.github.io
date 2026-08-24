@@ -131,7 +131,16 @@ function loadProfileData() {
 
   // About Me Section
   document.getElementById("info-affiliation").innerHTML = profile.affiliation || profile.location;
-  document.getElementById("info-email").textContent = profile.email;
+  
+  const emailEl = document.getElementById("info-email");
+  if (emailEl) {
+    if (profile.personalEmail) {
+      emailEl.innerHTML = `<a href="mailto:${profile.email}" class="email-link">${profile.email}</a><br><a href="mailto:${profile.personalEmail}" class="email-link personal">${profile.personalEmail}</a>`;
+    } else {
+      emailEl.innerHTML = `<a href="mailto:${profile.email}" class="email-link">${profile.email}</a>`;
+    }
+  }
+
   document.getElementById("info-location").textContent = profile.location;
   document.getElementById("about-bio").innerHTML = profile.bio;
   document.getElementById("about-bio-detailed").innerHTML = profile.bioDetailed;

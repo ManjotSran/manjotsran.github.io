@@ -7,7 +7,8 @@ const CONFIG = {
     bio: "I am an incoming Ph.D. student in Computer Science at the University of Manitoba (starting Sept. 2026), where I will be supervised by Dr. Mengjun Hu and Dr. Sheela Ramanna. I recently graduated with an M.S. in Applied Computer Science from the University of Winnipeg with a GPA of 4.375/4.5 and the highest distinction.",
     bioDetailed: "My research centers on developing multimodal AI methods for reliable prediction across heterogeneous data modalities. I design and analyze fusion architectures (including Mixture-of-Experts, gating mechanisms, and shared-private representation learning) with a focus on robustness to noise and missing modalities. Additionally, I integrate deep-learning-based fusion with uncertainty-aware soft-computing techniques like tolerance near sets to manage ambiguity.",
     avatar: "assets/img/avatar.png",
-    email: "sran-m36@webmail.uwinnipeg.ca",
+    email: "sranm1@myumanitoba.ca",
+    personalEmail: "manjotsinghsran2001@gmail.com",
     location: "Winnipeg, MB, Canada",
     footerTagline: "Focusing on robust, trustworthy, and scalable AI solutions.",
     socials: {
