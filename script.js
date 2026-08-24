@@ -456,7 +456,7 @@ function renderPublications() {
       badgeText = "Journal";
     } else if (pub.category === "under-review") {
       badgeClass = "badge-review";
-      badgeText = "Preprint / Review";
+      badgeText = "Under Review";
     }
 
     // Impact Factor / Publisher Tag details
