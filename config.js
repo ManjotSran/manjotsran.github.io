@@ -227,7 +227,7 @@ const CONFIG = {
       authors: "<b>Manjot S. Sran</b>, Sheela Ramanna",
       venue: "Machine Learning with Applications (Elsevier)",
       year: 2026,
-      category: "under-review",
+      category: "journal",
       publisher: "Elsevier",
       impactFactor: "6.1",
       note: "[Minor revision under review]",
