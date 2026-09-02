@@ -76,7 +76,7 @@ const CONFIG = {
     {
       role: "Teaching Assistant (Data Science with Real World Data Sets - DATA 3010 B01)",
       company: "Department of Computer Science, University of Manitoba",
-      period: "Sept. 2026 – Dec. 2026",
+      period: "Sept. 2026 – Present",
       details: [
         "Serving as a Teaching Assistant for DATA 3010 (Data Science with Real World Data Sets) during the Fall 2026 term.",
         "Facilitating lab sessions, guiding students through practical data science workflows, real-world dataset processing, and analysis techniques.",
