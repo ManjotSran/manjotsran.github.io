@@ -165,6 +165,11 @@ const CONFIG = {
   news: [
     {
       date: "09/2026",
+      text: "Joined the University of Manitoba as a Ph.D. student in the Department of Computer Science.",
+      link: null
+    },
+    {
+      date: "09/2026",
       text: "Working as a Teaching Assistant for <b>DATA 3010 B01: Data Science with Real World Data Sets</b> in the Department of Computer Science at the University of Manitoba (Fall 2026).",
       link: null
     },
@@ -216,6 +221,11 @@ const CONFIG = {
     {
       date: "08/2024",
       text: "Joined the University of Winnipeg as a Senior Research Assistant, drafting and developing proposal objectives for NSERC grant applications.",
+      link: null
+    },
+    {
+      date: "01/2024",
+      text: "Joined The University of Winnipeg as a Master's student in the Department of Applied Computer Science.",
       link: null
     }
   ],
