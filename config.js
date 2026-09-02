@@ -74,6 +74,16 @@ const CONFIG = {
   },
   experience: [
     {
+      role: "Teaching Assistant (Data Science with Real World Data Sets - DATA 3010 B01)",
+      company: "Department of Computer Science, University of Manitoba",
+      period: "Sept. 2026 – Dec. 2026",
+      details: [
+        "Serving as a Teaching Assistant for DATA 3010 (Data Science with Real World Data Sets) during the Fall 2026 term.",
+        "Facilitating lab sessions, guiding students through practical data science workflows, real-world dataset processing, and analysis techniques.",
+        "Assisting with coursework evaluation, grading, and holding office hours for student support."
+      ]
+    },
+    {
       role: "Teaching Assistant (Applications of Database Systems - ACS-2814)",
       company: "University of Winnipeg",
       period: "Sept. 2025 – Dec. 2025",
@@ -153,6 +163,11 @@ const CONFIG = {
     }
   ],
   news: [
+    {
+      date: "09/2026",
+      text: "Appointed as a Teaching Assistant for <b>DATA 3010 B01: Data Science with Real World Data Sets</b> in the Department of Computer Science at the University of Manitoba (Fall 2026).",
+      link: null
+    },
     {
       date: "09/2026",
       text: "Our paper <b>DiMoE: Disentangled Representation Learning with Mixture of Experts Fusion for Sentiment Intensity Prediction and Emotion Classification</b> has been published online in <i>Algorithms (MDPI)</i> 19(9), 743 [Impact Factor: 2.6]!",
