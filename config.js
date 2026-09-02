@@ -165,7 +165,7 @@ const CONFIG = {
   news: [
     {
       date: "09/2026",
-      text: "Appointed as a Teaching Assistant for <b>DATA 3010 B01: Data Science with Real World Data Sets</b> in the Department of Computer Science at the University of Manitoba (Fall 2026).",
+      text: "Working as a Teaching Assistant for <b>DATA 3010 B01: Data Science with Real World Data Sets</b> in the Department of Computer Science at the University of Manitoba (Fall 2026).",
       link: null
     },
     {
@@ -200,7 +200,7 @@ const CONFIG = {
     },
     {
       date: "09/2025",
-      text: "Worked as a Teaching Assistant for Applications of Database Systems at the University of Winnipeg (Fall Term).",
+      text: "Working as a Teaching Assistant for Applications of Database Systems at the University of Winnipeg (Fall Term).",
       link: null
     },
     {
