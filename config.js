@@ -165,12 +165,12 @@ const CONFIG = {
   news: [
     {
       date: "09/2026",
-      text: "Joined the University of Manitoba as a Ph.D. student in the Department of Computer Science.",
+      text: "Working as a Teaching Assistant for <b>DATA 3010 B01: Data Science with Real World Data Sets</b> in the Department of Computer Science at the University of Manitoba (Fall 2026).",
       link: null
     },
     {
       date: "09/2026",
-      text: "Working as a Teaching Assistant for <b>DATA 3010 B01: Data Science with Real World Data Sets</b> in the Department of Computer Science at the University of Manitoba (Fall 2026).",
+      text: "Joined the University of Manitoba as a Ph.D. student in the Department of Computer Science.",
       link: null
     },
     {
