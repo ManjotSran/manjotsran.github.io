@@ -170,7 +170,7 @@ const CONFIG = {
     },
     {
       date: "04/2026",
-      text: "Honored with the competitive <b>Graduate Student Research Award (GSRA)</b> ($7,000) from The University of Winnipeg.",
+      text: "Awarded the competitive <b>Graduate Student Research Award (GSRA)</b> ($7,000) from The University of Winnipeg.",
       link: null
     },
     {
