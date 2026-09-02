@@ -174,6 +174,11 @@ const CONFIG = {
       link: null
     },
     {
+      date: "04/2026",
+      text: "Awarded the competitive <b>Graduate Student Knowledge Mobilization Grant</b> ($750) from The University of Winnipeg Faculty of Graduate Studies.",
+      link: null
+    },
+    {
       date: "09/2025",
       text: "Presented a research talk on <b>Robust Alzheimer's Disease Detection via Multimodal Fusion</b> at the University of Winnipeg Physics Colloquium.",
       link: "https://www.uwinnipeg.ca/physics/events/2025/09/acs-research-group-colloquium.html"
@@ -320,6 +325,12 @@ const CONFIG = {
       issuer: "The University of Winnipeg",
       date: "April 2026",
       details: "Competitive $7,000 graduate research award recognizing student-led research excellence."
+    },
+    {
+      title: "Graduate Student Knowledge Mobilization Grant",
+      issuer: "The University of Winnipeg",
+      date: "April 2026",
+      details: "Competitive $750 grant awarded by the Faculty of Graduate Studies for research dissemination and knowledge mobilization."
     },
     {
       title: "Graduate Studies Scholarship",
