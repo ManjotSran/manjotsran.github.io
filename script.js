@@ -483,7 +483,8 @@ function renderPublications() {
         code: { label: "Code", icon: "github" },
         ieee: { label: "IEEE Xplore", icon: "external-link" },
         science_direct: { label: "ScienceDirect", icon: "external-link" },
-        springer: { label: "Springer", icon: "external-link" }
+        springer: { label: "Springer", icon: "external-link" },
+        mdpi: { label: "MDPI", icon: "external-link" }
       };
 
       Object.entries(pub.links).forEach(([key, url]) => {
@@ -501,10 +502,10 @@ function renderPublications() {
       });
     }
 
-    // Always append a dynamically generated BibTeX button
+    // Always append a dynamically generated BibTeX / Cite button
     linksHtml += `
       <button class="pub-link-btn bibtex-btn" data-pub-index="${index}">
-        <i data-lucide="quote"></i> BibTeX
+        <i data-lucide="quote"></i> Cite / BibTeX
       </button>
     `;
 
@@ -572,6 +573,11 @@ function generateBibTeX(pub) {
   const firstAuthorLastName = cleanAuthors.split(" ")[0].replace(/[^a-zA-Z]/g, "") || "sran";
   const bibKey = `${firstAuthorLastName.toLowerCase()}${pub.year}${pub.title.split(" ")[0].toLowerCase().replace(/[^a-z]/g, "")}`;
   
+  let headerPrefix = "";
+  if (pub.citationACS) {
+    headerPrefix = `[MDPI / ACS Citation Style]\n${pub.citationACS}\n\n[BibTeX Format]\n`;
+  }
+
   let entryType = "inproceedings";
   let booktitleOrJournalField = "booktitle";
 
@@ -596,7 +602,7 @@ function generateBibTeX(pub) {
   bibtex += `  year={${pub.year}}\n`;
   bibtex += `}`;
   
-  return bibtex;
+  return headerPrefix + bibtex;
 }
 
 function initBibtexModal() {

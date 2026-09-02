@@ -1,10 +1,10 @@
 const CONFIG = {
   profile: {
     name: "Manjot Singh Sran",
-    title: "Incoming Ph.D. Student in Computer Science",
+    title: "Ph.D. Student in Computer Science",
     subtitle: "Multimodal AI, Fusion & Soft Computing",
     tagline: ["a researcher", "a computer scientist", "a machine learning engineer"],
-    bio: "I am an incoming Ph.D. student in Computer Science at the University of Manitoba (starting Sept. 2026), where I will be supervised by Dr. Mengjun Hu and Dr. Sheela Ramanna. I recently graduated with an M.S. in Applied Computer Science from the University of Winnipeg with a GPA of 4.375/4.5 and the highest distinction.",
+    bio: "I am a Ph.D. student in Computer Science at the University of Manitoba, supervised by Dr. Mengjun Hu and Dr. Sheela Ramanna. I recently graduated with an M.S. in Applied Computer Science from the University of Winnipeg with a GPA of 4.375/4.5 and the highest distinction.",
     bioDetailed: "My research centers on developing multimodal AI methods for reliable prediction across heterogeneous data modalities. I design and analyze fusion architectures (including Mixture-of-Experts, gating mechanisms, and shared-private representation learning) with a focus on robustness to noise and missing modalities. Additionally, I integrate deep-learning-based fusion with uncertainty-aware soft-computing techniques like tolerance near sets to manage ambiguity.",
     avatar: "assets/img/avatar.png",
     email: "sranm1@myumanitoba.ca",
@@ -35,8 +35,8 @@ const CONFIG = {
   education: [
     {
       institution: "University of Manitoba, Winnipeg, Canada",
-      degree: "Incoming Ph.D. Student in Computer Science",
-      period: "Starting Sept. 2026",
+      degree: "Ph.D. Student in Computer Science",
+      period: "Sept. 2026 – Present",
       details: "Supervisors: Dr. Mengjun Hu and Dr. Sheela Ramanna"
     },
     {
@@ -154,9 +154,9 @@ const CONFIG = {
   ],
   news: [
     {
-      date: "08/2026",
-      text: "Our paper <b>DiMoE: Disentangled Representation Learning with Mixture-of-Experts Fusion for Sentiment Intensity Prediction and Emotion Classification</b> has been accepted for publication in <i>Algorithms (MDPI)</i> [Impact Factor: 2.6]!",
-      link: null
+      date: "09/2026",
+      text: "Our paper <b>DiMoE: Disentangled Representation Learning with Mixture of Experts Fusion for Sentiment Intensity Prediction and Emotion Classification</b> has been published online in <i>Algorithms (MDPI)</i> 19(9), 743 [Impact Factor: 2.6]!",
+      link: "https://doi.org/10.3390/a19090743"
     },
     {
       date: "07/2026",
@@ -213,15 +213,17 @@ const CONFIG = {
       }
     },
     {
-      title: "DiMoE: Disentangled Representation Learning with Mixture-of-Experts Fusion for Sentiment Intensity Prediction and Emotion Classification",
+      title: "DiMoE: Disentangled Representation Learning with Mixture of Experts Fusion for Sentiment Intensity Prediction and Emotion Classification",
       authors: "<b>Manjot S. Sran</b>, Sheela Ramanna, Ketan Kotecha",
-      venue: "Algorithms (MDPI)",
+      venue: "Algorithms (MDPI), Volume 19, Issue 9, 743",
       year: 2026,
       category: "journal",
       publisher: "MDPI",
       impactFactor: "2.6",
-      note: "[Accepted for publication]",
-      links: {}
+      citationACS: "Sran, M.S.; Ramanna, S.; Kotecha, K. DiMoE: Disentangled Representation Learning with Mixture of Experts Fusion for Sentiment Intensity Prediction and Emotion Classification. Algorithms 2026, 19, 743. https://doi.org/10.3390/a19090743",
+      links: {
+        mdpi: "https://doi.org/10.3390/a19090743"
+      }
     },
     {
       title: "TLC-STRIDE: An Ambiguity-Aware Framework for Multimodal Sentiment Prediction",
