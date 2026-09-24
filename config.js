@@ -86,6 +86,8 @@ const CONFIG = {
       role: "Webmaster (IJCRS 2027)",
       company: "International Joint Conference on Rough Sets (IJCRS 2027)",
       period: "Sept. 2026 – Present",
+      link: "https://ijcrs2027.cs.umanitoba.ca/",
+      linkText: "Visit IJCRS 2027 Conference Website",
       details: [
         "Developing and maintaining the IJCRS 2027 conference website in coordination with the organizing committee.",
         "Publishing conference announcements, deadlines, program information, and organizational content to keep details current."
@@ -184,7 +186,8 @@ const CONFIG = {
     {
       date: "09/2026",
       text: "Working as Webmaster for the <b>International Joint Conference on Rough Sets (IJCRS 2027)</b>.",
-      link: null
+      link: "https://ijcrs2027.cs.umanitoba.ca/",
+      linkText: "Visit IJCRS 2027 Website"
     },
     {
       date: "09/2026",

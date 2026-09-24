@@ -293,7 +293,8 @@ function renderNews() {
     
     let linkHtml = "";
     if (item.link) {
-      linkHtml = `<a href="${item.link}" target="_blank" rel="noopener noreferrer" class="timeline-link">Learn More <i data-lucide="external-link"></i></a>`;
+      const linkLabel = item.linkText || "Learn More";
+      linkHtml = `<a href="${item.link}" target="_blank" rel="noopener noreferrer" class="timeline-link">${linkLabel} <i data-lucide="external-link"></i></a>`;
     }
 
     itemDiv.innerHTML = `
@@ -328,7 +329,8 @@ function renderExperience() {
 
     let linkHtml = "";
     if (exp.link) {
-      linkHtml = `<a href="${exp.link}" target="_blank" rel="noopener noreferrer" class="exp-link" style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.9rem; color: var(--primary); font-weight: 600; margin-top: 1rem; text-decoration: none;">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle; margin-left: 2px;"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a>`;
+      const linkLabel = exp.linkText || "Learn More";
+      linkHtml = `<a href="${exp.link}" target="_blank" rel="noopener noreferrer" class="exp-link" style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.9rem; color: var(--primary); font-weight: 600; margin-top: 1rem; text-decoration: none;">${linkLabel} <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle; margin-left: 2px;"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a>`;
     }
 
     item.innerHTML = `
