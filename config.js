@@ -74,13 +74,31 @@ const CONFIG = {
   },
   experience: [
     {
+      role: "Guest Instructor (COMP 3360/DATA 3010 & COMP 4710)",
+      company: "Department of Computer Science, University of Manitoba",
+      period: "Sept. 2026 – Present",
+      details: [
+        "Serving as a Guest Instructor for selected lectures in COMP 3360/DATA 3010 and COMP 4710 during the Fall 2026 term.",
+        "Preparing and delivering assigned course lectures covering scheduled material in machine learning and data mining."
+      ]
+    },
+    {
+      role: "Webmaster (IJCRS 2027)",
+      company: "International Joint Conference on Rough Sets (IJCRS 2027)",
+      period: "Sept. 2026 – Present",
+      details: [
+        "Developing and maintaining the IJCRS 2027 conference website in coordination with the organizing committee.",
+        "Publishing conference announcements, deadlines, program information, and organizational content to keep details current."
+      ]
+    },
+    {
       role: "Teaching Assistant (Data Science with Real World Data Sets - DATA 3010 B01)",
       company: "Department of Computer Science, University of Manitoba",
       period: "Sept. 2026 – Present",
       details: [
-        "Serving as a Teaching Assistant for DATA 3010 (Data Science with Real World Data Sets) during the Fall 2026 term.",
-        "Facilitating lab sessions, guiding students through practical data science workflows, real-world dataset processing, and analysis techniques.",
-        "Assisting with coursework evaluation, grading, and holding office hours for student support."
+        "Supporting instruction for DATA 3010 during the Fall 2026 term with a focus on applied data science using real-world datasets.",
+        "Facilitating lab sessions and guiding students through practical data science workflows, dataset processing, and analysis techniques.",
+        "Assisting with coursework evaluation and grading, and holding office hours to provide individualized student support."
       ]
     },
     {
@@ -88,9 +106,9 @@ const CONFIG = {
       company: "University of Winnipeg",
       period: "Sept. 2025 – Dec. 2025",
       details: [
-        "Led weekly labs and tutorials on ER modeling, database normalization, and SQL (DDL/DML) query design.",
+        "Led weekly labs and tutorials on ER modeling, normalization, and SQL (DDL/DML) with query design and optimization.",
         "Provided office-hours support to students, troubleshooting configurations in MS Access and SQL Server.",
-        "Assisted with quizzes/exams administration and delivered actionable feedback on query optimization."
+        "Assisted with assessment administration (quizzes/exams) and delivered actionable feedback to improve learning outcomes."
       ]
     },
     {
@@ -98,9 +116,9 @@ const CONFIG = {
       company: "University of Winnipeg",
       period: "Aug. 2024 – Nov. 2024",
       details: [
-        "Collaborated on drafting and reviewing key proposal sections for an NSERC grant application.",
-        "Synthesized research objectives, methodologies, and projected impacts to ensure alignment with guidelines.",
-        "Managed application deadlines and provided administrative and editorial support to finalize submissions on time."
+        "Collaborated on the preparation and submission of an NSERC grant application, ensuring alignment with funding agency guidelines.",
+        "Drafted and revised key proposal sections, including research objectives, methodologies, and projected impact.",
+        "Managed deadlines and provided administrative and editorial support to finalize submissions on time."
       ]
     },
     {
@@ -109,9 +127,9 @@ const CONFIG = {
       period: "June 2025 – Sept. 2025",
       link: "https://www.uwinnipeg.ca/graduate-studies/news/2025/09/msc-acs-students-forge-a-new-path-for-caregivers.html",
       details: [
-        "Participated in a regional startup incubator to accelerate an early-stage digital health venture.",
-        "Conducted user research with dementia caregivers to identify unmet needs and support system workflow gaps.",
-        "Refined value propositions, business models, and pitched prototypes to mentors and stakeholders."
+        "Participated in North Forge's Founders Program (Pathfinder cohort) to accelerate an early-stage digital health venture.",
+        "Conducted user research with caregivers of people living with dementia to identify unmet needs, workflow gaps, and support preferences.",
+        "Refined value propositions, business models, and pitched prototypes to mentors and North Forge stakeholders."
       ]
     }
   ],
@@ -163,6 +181,16 @@ const CONFIG = {
     }
   ],
   news: [
+    {
+      date: "09/2026",
+      text: "Working as Webmaster for the <b>International Joint Conference on Rough Sets (IJCRS 2027)</b>.",
+      link: null
+    },
+    {
+      date: "09/2026",
+      text: "Serving as a Guest Instructor for selected lectures in <b>COMP 3360/DATA 3010</b> and <b>COMP 4710</b> at the University of Manitoba (Fall 2026).",
+      link: null
+    },
     {
       date: "09/2026",
       text: "Working as a Teaching Assistant for <b>DATA 3010 B01: Data Science with Real World Data Sets</b> in the Department of Computer Science at the University of Manitoba (Fall 2026).",
