@@ -30,6 +30,10 @@ const CONFIG = {
     {
       title: "Uncertainty-Aware Learning and Approximate Reasoning",
       description: "Development of uncertainty-aware and interpretable learning methods using rough sets, tolerance near sets, ambiguity-aware clustering, and selective decision mechanisms."
+    },
+    {
+      title: "Machine Learning for Weather Forecasting",
+      description: "Development of multi-scale representation learning and adaptive reasoning frameworks for weather prediction, with emphasis on modeling cross-source agreement, multi-level spatial-temporal structure, and decision making under heterogeneous evidence."
     }
   ],
   education: [
